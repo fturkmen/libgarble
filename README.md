@@ -1,4 +1,4 @@
-# Update Notes
+# MacOSX Port - Update Notes
 This code is just a simple MacOSX port of libgarble and some additional info has been integrated to the README:
 
 + Compile Configuration has been done as follows for MacOSX support:
