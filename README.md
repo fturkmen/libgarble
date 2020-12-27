@@ -1,5 +1,5 @@
 # MacOSX Port - Update Notes
-This code is just a simple MacOSX port of libgarble and some additional info has been integrated to the README:
+This code is just a simple MacOSX port of libgarble and some additional info has been integrated to the README. Note that you need to install OpenSSL on your Mac. Changes to the course code include:
 
 + Compile Configuration has been done as follows for MacOSX support:
 ```
@@ -31,12 +31,12 @@ Garbling library based on [JustGarble](http://cseweb.ucsd.edu/groups/justgarble/
 
 This code is still in alpha and the API is not yet fully stable (as in, future commits may change it).  However, I'd love to hear feedback from anyone who uses it, to help improve the library.
 
-## Installation instructions
+## Installation instructions (Updated)
 
 Run the following:
 ```
 autoreconf -i
-./configure
+./configure LDFLAGS="-L/usr/local/opt/openssl/lib" CPPFLAGS="-I/usr/local/opt/openssl/include" --with-msgpack=yes
 make
 sudo make install
 ```
