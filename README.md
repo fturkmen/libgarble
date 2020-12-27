@@ -18,7 +18,7 @@ This code is just a simple MacOSX port of libgarble and some additional info has
 garble_create_input_labels(block *labels, uint64_t n, block *delta,
                            bool privacyfree);
 ```
-+ Again for *malloc.h*, the file *scd.h* has been changed as follows:
++ Again for *malloc.h*, the file *scd.c* has been changed as follows:
 ```
 #ifdef __linux__
 #include <malloc.h>
