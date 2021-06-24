@@ -1,5 +1,5 @@
 # MacOSX Port - Update Notes
-This code is just a simple MacOSX port of libgarble and some additional info has been integrated to the README. Note that you need to install OpenSSL on your Mac. Changes to the course code include:
+This code is just a simple MacOSX port of libgarble and some additional info has been integrated to the README. Note that you need to install OpenSSL on your Mac. Changes to the source code include:
 
 + Compile Configuration has been done as follows for MacOSX support:
 ```
