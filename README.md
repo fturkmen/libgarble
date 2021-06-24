@@ -5,7 +5,7 @@ This code is just a simple MacOSX port of libgarble and some additional info has
 ```
 ./configure LDFLAGS="-L/usr/local/opt/openssl/lib" CPPFLAGS="-I/usr/local/opt/openssl/include" --with-msgpack=yes
 ```
-+ Since *malloc.h* is not supported by MacOSX (is deprecated) any more, the following has been added to *garble.c*
++ Since *malloc.h* is not supported by MacOSX (deprecated) any more, the following has been added to *garble.c*
 ```
 #ifdef __APPLE__
 #include <stdlib.h>
